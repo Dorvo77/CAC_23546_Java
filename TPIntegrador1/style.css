@@ -1,0 +1,72 @@
+:root {
+  --colorFuente: #fafafa;
+  --colorFondo: #2c2b2b;
+}
+.logoC {
+  width: 80px;
+  height: 50px;
+}
+.parrf-cartas {
+  text-align: center;
+}
+section {
+  background-color: var(--colorFondo);
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-6 {
+  width: 50%;
+  border: 1px solid #ccc;
+}
+#contenido-grid {
+  color: var(--colorFuente);
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.boton-main {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: green;
+  padding: 5px;
+}
+.boton-grid {
+  background-color: var(--colorFondo);
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: var(--colorFuente);
+  padding: 5px;
+}
+.seccion-3 {
+  padding: 5px;
+  text-align: center;
+}
+.seccion-3 p {
+  font-size: 12px;
+}
+.seccion-3 p span {
+  text-decoration-line: dotted;
+  text-decoration-color: var(--colorFondo);
+}
+.footer1 {
+  position: bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(30, 80, 110);
+  color: white;
+  font-size: 0.775em;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.footer1 a {
+  color: white;
+  text-decoration: none;
+}

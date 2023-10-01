@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>TP Front</title>
+  </head>
+  <body>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+         <img class="logoC" src="./img/codoacodo.png" alt="logo">
+
+          Conf Bs As
+        </a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#"
+              >La conferencia</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-white-50" href="#">Los oradores</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link disabled text-white-50" href="#">El lugar y la fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-white-50" href="#">Conviertete en orador</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link disabled text-success" aria-disabled="true"
+              >Comprar tickets</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+<!-- main-->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/ba1.jpg" class="d-block w-100"
+          alt="...">
+          <div class="carousel-caption text-end">
+              <h5>Conf Bs As</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vel laudantium porro odio quis hic laboriosam repellendus exercitationem esse eaque.</p>
+              <button class="boton-grid">Comprar entrada</button>
+              <button class="boton-main">Reservar lugar</button>
+            </div>        
+      </div>
+      <div class="carousel-item">
+        <img src="./img/ba2.jpg" class="d-block w-100"
+          alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/ba3.jpg" class="d-block w-100"
+          alt="...">
+      </div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <!--contenido de cartas -->
+    <div class="parrf-cartas">
+    <p id=>Conoce a los oradores</p>
+    <h4><b>ORADORES</b></h4>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/steve.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <span class="badge text-bg-warning">JavaScrip</span>
+              <span class="badge text-bg-primary">React</span>
+            <h5><b>Steve Jobs</b></h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit perspiciatis maxime delectus dolorem voluptate fuga est eveniet numquam totam animi?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/bill.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <span class="badge text-bg-warning">JavaScrip</span>
+              <span class="badge text-bg-primary">React</span>
+            <h5><b>Bill Gates</b></h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur exercitationem perferendis reiciendis soluta doloribus est eos laboriosam!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/ada.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <span class="badge text-bg-secondary">Negocios</span>
+              <span class="badge text-bg-danger">Startups</span>
+            <h5><b>Ada Lovelace</b></h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis quod perferendis voluptatum debitis, ipsam dolorem iste quidem quis ea placeat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- otra seccion imagen izaquierda texto a la derecha-->
+    <section>
+    <div class="container-dos">
+        <div class="row">
+            <div class="col-md-6">
+              <img src="./img/honolulu.jpg" alt="Imagen 1">
+            </div>
+            <div class="col-md-6" id="contenido-grid">
+              <h4>BS AS  - Octubre</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ducimus nam, vero molestiae expedita odio odit rerum possimus ratione iste quaerat itaque consectetur ea quod! Officia pariatur deleniti illum hic incidunt molestiae illo delectus magni repellat consequuntur? Porro, velit? Quod modi corrupti sunt nisi obcaecati ex necessitatibus porro facilis facere?</p>
+              <button type="button" class="boton-grid">Conocé más</button>
+            </div>
+          </div>
+          </div>
+  </section>
+     <!-- seccion del formulario-->
+     <div class="seccion-3"> 
+       <p>CONVIÉRTE EN UN ORADOR</p>
+       <H4><B>ORADOR</B></H4>
+       <p>Anótate como orador para dar una <abbr title="attribute">charla ignite</abbr>. Cuéntanos de que quieres hablar!</p>
+       <div class="grid gap-2">
+       
+          <div class="p-2 g-col-6">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+          </div>
+          <div class="p-2 g-col-6">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+          </div>
+        </div>
+
+       <div class="p-2 g-col-6 form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Comments</label>
+        </div>
+      
+        <p>Recuerda enviar un título paara tu charla</p>
+    </div>
+    
+    <!-- otra seccion footer-->
+    <footer class="footer1">
+        <a href="#">Preguntas <br> Frecuentes</a>
+        <a href="#">Contactanos</a>
+        <a href="#">Prensa</a>
+        <a href="#">Conferencias</a>
+        <a href="#">Términos y <br>condiciones</a>
+        <a href="#">Privacidad</a>
+        <a href="#">Estudiantes</a>
+      </footer>
+
+    <!-- links de bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
