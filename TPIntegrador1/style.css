@@ -6,23 +6,22 @@
   width: 80px;
   height: 50px;
 }
+.carousel-caption{
+  text-align: end;
+  color: aliceblue;
+  margin-left: 35%;
+}
 .parrf-cartas {
   text-align: center;
 }
-section {
-  background-color: var(--colorFondo);
-}
-.row {
+.cartas-flex{
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.col-md-6 {
-  width: 50%;
-  border: 1px solid #ccc;
-}
 #contenido-grid {
   color: var(--colorFuente);
+  background-color: rgb(53, 58, 64);
 }
 img {
   width: 100%;
@@ -36,7 +35,7 @@ img {
   padding: 5px;
 }
 .boton-grid {
-  background-color: var(--colorFondo);
+  background-color: rgb(53, 58, 64);
   border: 1px solid #ffffff;
   border-radius: 5px;
   color: var(--colorFuente);
@@ -53,6 +52,10 @@ img {
   text-decoration-line: dotted;
   text-decoration-color: var(--colorFondo);
 }
+.pform{
+  font-size: 0.875em;
+  
+}
 .footer1 {
   position: bottom;
   left: 0;
@@ -63,7 +66,7 @@ img {
   font-size: 0.775em;
   display: flex;
   justify-content: space-evenly;
-  padding: 10px;
+  padding: 12px;
   flex-wrap: wrap;
 }
 .footer1 a {
