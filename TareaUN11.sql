@@ -1,3 +1,4 @@
+//creacion base de datos
 CREATE DATABASE universidad;
 	CREATE TABLE estudiante(
 	id INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -7,6 +8,7 @@ CREATE DATABASE universidad;
     fecha TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     provincia VARCHAR(30) NOT NULL
 );
+// Ingreso de datos a la tabla
 INSERT INTO estudiante(nombre,apellido,edad,provincia) VALUES
 ("nico","aaaa",25,"cordoba"),
 ("alejandro","bbbb",35,"cordoba"),
