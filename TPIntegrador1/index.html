@@ -28,13 +28,13 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-white-50" href="#">Los oradores</a>
+            <a class="nav-link active text-white-50" href="#oradores">Los oradores</a>
           </li>
           <li class="nav-item ">
             <a class="nav-link active text-white-50" href="#">El lugar y la fecha</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-white-50" href="#">Conviértete en orador</a>
+            <a class="nav-link active text-white-50" href="./pages/oradores.html">Conviértete en orador</a>
           </li>
           <li class="nav-item" >
             <a class="nav-link active text-success" aria-disabled="true" href="./pages/ticket.html" 
@@ -151,17 +151,18 @@
           </div>
   </section>
      <!-- seccion del formulario-->
-     <div class="seccion-3"> 
+     <div class="seccion-3" id="oradores"> 
      <p>CONVIÉRTE EN UN ORADOR</p>
        <H4><B>ORADOR</B></H4>
        <p>Anótate como orador para dar una <abbr title="attribute">charla ignite</abbr>. Cuéntanos de que quieres hablar!</p>
-     <div class="d-grid gap-2 col-5 mx-auto m-2">
+      <form action="serletnew" method="POST">
+      <div class="d-grid gap-2 col-5 mx-auto m-2">
       <div class="row">
           <div class="col">
-            <input type="text" class="form-control" placeholder="Nombre...." aria-label="First name">
+            <input type="text" name="nombre" class="form-control" placeholder="Nombre...." aria-label="First name">
           </div>
           <div class="col">
-            <input type="text" class="form-control" placeholder="Apellido...." aria-label="Last name">
+            <input type="text" name="apellido" class="form-control" placeholder="Apellido...." aria-label="Last name">
           </div>
         </div>
         <div class="form-floating">
@@ -169,8 +170,9 @@
           <label for="floatingTextarea2">Sobre que quieres hablar?</label>
         </div>
         <p class="pform">Recuerda incluir un título para tu charla</p>
-      <button class="btn btn-success" type="button">Enviar</button>
+      <button class="btn btn-success" type="submit">Enviar</button>
     </div>  
+  </form>
     </div>
     <!-- otra seccion footer-->
     <footer class="footer1">
